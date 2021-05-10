@@ -32,15 +32,15 @@ function reverseArray(arr) {
 
   let result = [];
 
-  for (let i = 0; i < arr.length-1; i--) {
+  for (let i = arr.length - 1; i > 0; i--) {
     result.push(arr[i]);
   }
   return result;
 }
 
 
-reverseArray([1, 2, 3]);
-console.log(reverseArray);
+ const reverseArrayResult = reverseArray([1, 2, 3]);
+ console.log(reverseArrayResult);
 
 
 
@@ -72,6 +72,7 @@ function filterArray(arr) {
 // ---------------------
 
 // Put your answer below -------------------------
+
 
 
 
@@ -123,7 +124,7 @@ function compareArrays(arr1, arr2) {
 
     for (let j = 0; j <= arr2.length; j++) {
 
-      if (arr1.length === arra2.length && arr[i] === arr[j]) {
+      if (arr1.length === arr2.length && arr1[i] === arr2[j]) {
 
         return true;
       } else {
@@ -133,8 +134,9 @@ function compareArrays(arr1, arr2) {
   }
 }
 
-compareArrays([1, 2, 3], [4, 5, 6]);
-console.log(compareArrays);
+// compareArrays = [1, 2, 3], [4, 5, 6];
+// compareArrays();
+// console.log(compareArrays);
 
 
 
