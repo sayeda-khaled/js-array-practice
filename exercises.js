@@ -5,18 +5,17 @@
 
 // Put your answer below -------------------------
 
-function newArray(str, n){
+function newArray(str, n) {
 
-  var array2= [];
+  var array2 = [];
 
-  for (let i = 0; i <= n, i++) {
+  for (let i = 0; i < n; i++) {
 
-    array2 = arr.concat(str);
+    array2.push(str);
   }
 
-  return array2
+  return array2;
 }
-
 
 
 
@@ -31,16 +30,17 @@ function newArray(str, n){
 
 function reverseArray(arr) {
 
-  const result = [];
+  let result = [];
 
-  for (let i > 0; i = arr.length-1; i--) {
+  for (let i = 0; i < arr.length-1; i--) {
     result.push(arr[i]);
   }
   return result;
 }
 
 
-
+reverseArray([1, 2, 3]);
+console.log(reverseArray);
 
 
 
@@ -57,7 +57,7 @@ function reverseArray(arr) {
 function filterArray(arr) {
 
   let filterArray = arr.filter(Boolean);
-  console.log(filterArray;
+  console.log(filterArray);
 
 }
 
@@ -81,7 +81,6 @@ function filterArray(arr) {
 
 
 
-
 // -----------------------------------------------
 
 // ---------------------
@@ -91,7 +90,13 @@ function filterArray(arr) {
 
 // Put your answer below -------------------------
 
+function duplicates(arr) {
 
+  const removeDuplicates = new Set(arr);
+
+  console.log(removeDuplicates);
+
+}
 
 
 
@@ -112,7 +117,24 @@ function filterArray(arr) {
 
 // Put your answer below -------------------------
 
+function compareArrays(arr1, arr2) {
 
+  for (let i = 0; i <= arr1.length; i++) {
+
+    for (let j = 0; j <= arr2.length; j++) {
+
+      if (arr1.length === arra2.length && arr[i] === arr[j]) {
+
+        return true;
+      } else {
+        return false;
+      }
+    }
+  }
+}
+
+compareArrays([1, 2, 3], [4, 5, 6]);
+console.log(compareArrays);
 
 
 
@@ -150,7 +172,6 @@ function filterArray(arr) {
 
 
 
-
 // -----------------------------------------------
 
 // ---------------------
@@ -160,7 +181,6 @@ function filterArray(arr) {
 // ---------------------
 
 // Put your answer below -------------------------
-
 
 
 
