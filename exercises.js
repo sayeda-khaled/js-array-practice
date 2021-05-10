@@ -5,11 +5,17 @@
 
 // Put your answer below -------------------------
 
+function newArray(str, n){
 
+  var array2= [];
 
+  for (let i = 0; i <= n, i++) {
 
+    array2 = arr.concat(str);
+  }
 
-
+  return array2
+}
 
 
 
@@ -23,7 +29,15 @@
 
 // Put your answer below -------------------------
 
+function reverseArray(arr) {
 
+  const result = [];
+
+  for (let i > 0; i = arr.length-1; i--) {
+    result.push(arr[i]);
+  }
+  return result;
+}
 
 
 
@@ -40,12 +54,12 @@
 
 // Put your answer below -------------------------
 
+function filterArray(arr) {
 
+  let filterArray = arr.filter(Boolean);
+  console.log(filterArray;
 
-
-
-
-
+}
 
 
 
