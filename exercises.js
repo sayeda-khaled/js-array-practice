@@ -39,8 +39,8 @@ function reverseArray(arr) {
 }
 
 
- const reverseArrayResult = reverseArray([1, 2, 3]);
- console.log(reverseArrayResult);
+const reverseArrayResult = reverseArray([1, 2, 3]);
+console.log(reverseArrayResult);
 
 
 
@@ -81,7 +81,6 @@ function filterArray(arr) {
 
 
 
-
 // -----------------------------------------------
 
 // ---------------------
@@ -91,17 +90,19 @@ function filterArray(arr) {
 
 // Put your answer below -------------------------
 
+// function duplicates(arr) {
+//
+//   const removeDuplicates = new Set(arr);
+//
+//   console.log(removeDuplicates);
+//
+// }
+
 function duplicates(arr) {
 
-  const removeDuplicates = new Set(arr);
-
+  const removeDuplicates = Object.assign({}, arr);
   console.log(removeDuplicates);
-
 }
-
-
-
-
 
 
 
